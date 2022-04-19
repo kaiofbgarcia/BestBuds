@@ -10,7 +10,6 @@
     </head>
     <body>
             <header>
-            <!-- Header -->
             <div style="background: url(https://media.istockphoto.com/vectors/cannabis-leaves-pattern-background-marijuana-vector-seamless-pattern-vector-id1216223360?b=1&k=20&m=1216223360&s=170667a&w=0&h=kyP4NFv909PgzGVoKpGdfxuDbEi_ErrmdM_Xb2mGpxc=)" class="jumbotron bg-cover text-white">
             <!--<div style="background: url(https://cdn.w600.comps.canstockphoto.com.br/wallpaper-cannabis-médico-seamless-vetor-clip-arte_csp43083961.jpg)" class="jumbotron bg-cover text-white"> -->
             <!-- <div style="background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg)" class="jumbotron bg-cover text-white">-->
@@ -24,7 +23,6 @@
         </header>
 
         <main id="app">
-            
             <section class="items">
                 <h4>Selecione os produtos</h4>
                 <div v-for="product in products" 
@@ -32,7 +30,7 @@
                     @click="toggleActive(product)"
                     :class="{selected: product.active}"
                     >
-                    
+        
                     <div class="photo">
                         <img :src="product.photo">
                     </div>
@@ -48,7 +46,6 @@
                         </div>
                     </div>
                 </div>
-
             </section>
 
             <section class="summary" v-if="total()>0">
@@ -79,6 +76,13 @@
 
         <script src="https://unpkg.com/vue@next"></script>
         <script src="scripts.js"></script>
+
+        <div class="input-group input-group-sm mb-3 p-5">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-white bg-success" id="inputGroup-sizing-sm">Nome e Telefone</span>
+            </div>
+            <input type="text" class="form-control text-dark" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>
         <div class="m-3 d-flex justify-content-center">
             <button type="button" class="btn btn-success" @click = "saveFile">Finalizar Pedido</button>
         </div>
