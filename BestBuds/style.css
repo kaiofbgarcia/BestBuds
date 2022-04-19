@@ -48,7 +48,7 @@ section.items .product {
 }
 
 section.items .product.selected {
-    border: 2px solid rgb(29, 134, 233);
+    border: 2px solid #1eb870;
 
 }
 
