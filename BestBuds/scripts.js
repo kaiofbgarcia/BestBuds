@@ -1,83 +1,83 @@
 var products = [
     {
-        "photo": "img/big-mac.png",
+        "photo": "img/Skunk.jpg",
         "name": "Baseado - Skunk",
         "price": 150,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/mc-chicken.png",
+        "photo": "img/PurpleHaze.jpg",
         "name": "Baseado - Purple Haze",
         "price": 150,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/double-cb.png",
+        "photo": "img/BlueDream.jpg",
         "name": "Baseado - Blue Dream",
         "price": 180,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/fries.png",
+        "photo": "img/SuperLemonHaze.jpg",
         "name": "Baseado - Super Lemon Haze",
         "price": 180,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/nuggets.png",
+        "photo": "img/AmneziaHaze.jpg",
         "name": "Baseado - Amnezia Haze",
         "price": 200,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/salad.png",
+        "photo": "img/CinzasBob.jpg",
         "name": "Baseado - Cinzas do Bob",
         "price": 220,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/cola.png",
+        "photo": "img/CBD.jpg",
         "name": "CBD",
         "price": 120,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/lipton.png",
+        "photo": "img/Cigarro.jpg",
         "name": "Cigarro",
         "price": 8,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/water.png",
+        "photo": "img/Bong.jpg",
         "name": "Bong Squadafum",
         "price": 200,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/lipton.png",
+        "photo": "img/Chocolate.jpg",
         "name": "Brisadeiro / Chocolate",
         "price": 45,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/lipton.png",
+        "photo": "img/Rosquinha.jpg",
         "name": "Rosquinha",
         "price": 40,
         "active": false,
         "quantity": 1
     },
     {
-        "photo": "img/lipton.png",
+        "photo": "img/Confete.jpg",
         "name": "Confetes",
         "price": 25,
         "active": false,
