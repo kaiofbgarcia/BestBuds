@@ -1,0 +1,9 @@
+{
+    "sandwiches": [
+        {
+            "photo": "img/big-mac.png",
+            "name": "Baseado - Skunk",
+            "price": 150
+        }
+    ]
+}
